@@ -1,0 +1,38 @@
+* {
+  align-items: center;
+  justify-content: center;
+}
+
+.perfil {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: relative;
+  animation: colorChange 2s linear infinite;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  margin-left: 1%;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #845ec2;
+  }
+
+  25% {
+    background-color: #b39cd0;
+  }
+
+  50% {
+    background-color: #00c9a7;
+  }
+
+  100% {
+    background-color: #845ec2;
+  }
+}
